@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+
+                    .content {
+                        background-color: black;
+                        color: white;
+                        padding: 20px;
+                        border-radius: 10px;
+                        width: 300px;
+                        margin: auto;
+                        text-align: center;
+                    }
+                    .email, .password {
+                        font-family: "Montserrat", sans-serif;
+                        display: block;
+                        width: 90%;
+                        padding: 10px;
+                        margin: 10px auto;
+                        border-radius: 5px;
+                        border: none;
+                    }
+                    #button {
+                        margin-top: 20px;
+                    }
+                    #button button {
+                        padding: 10px 20px;
+                        border: none;
+                        border-radius: 5px;
+                        background-color: #4CAF50;
+                        color: white;
+                        cursor: pointer;
+                        font-family: "Montserrat", sans-serif;
+
+                    }
+                    #button button:hover {
+                        background-color: #45a049;
+                    }
+                    #extra_details {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 20px;
+                    }
+                    #extra_details p {
+                        margin: 0;
+                        cursor: pointer;
+                        color: #00f;
+                    }
+                    #extra_details input {
+                        margin-right: 10px;
+                    }
